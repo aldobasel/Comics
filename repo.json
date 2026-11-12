@@ -1,0 +1,41 @@
+{
+  "name": "Comics and Stuff — Harbor Sources",
+  "plugins": [
+    {
+      "id": "3asq-custom",
+      "name": "مانجا العاشق (3asq)",
+      "version": "1.0.0",
+      "lang": "ar",
+      "nsfw": false,
+      "icon": "https://3asq.online/favicon.ico",
+      "entry": "3asq.plugin.js"
+    },
+    {
+      "id": "comicverse-ar",
+      "name": "Comic Verse (عربي)",
+      "version": "1.6.0",
+      "lang": "ar",
+      "nsfw": false,
+      "icon": "https://arcomixverse.blogspot.com/favicon.ico",
+      "entry": "comicverse.plugin.js"
+    },
+    {
+      "id": "globalcomix-public",
+      "name": "GlobalComix (All Languages)",
+      "version": "0.9.0",
+      "lang": "all",
+      "nsfw": false,
+      "icon": "https://globalcomix.com/favicon.ico",
+      "entry": "globalcomix.plugin.js"
+    },
+    {
+      "id": "comicsvalley-all",
+      "name": "Comics Valley (All Languages)",
+      "version": "1.0.0",
+      "lang": "all",
+      "nsfw": true,
+      "icon": "https://comicsvalley.com/favicon.ico",
+      "entry": "comicsvalley.plugin.js"
+    }
+  ]
+}
